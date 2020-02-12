@@ -23,15 +23,15 @@
 
   <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-success">
-      <a href="index.html" class="navbar-brand">Akan Names</a>
+      <a href="index.html" class="navbar-brand text-monospace text-uppercase">Akan Names</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse  navbar-collapse" id="nav">
         <ul class="navbar-nav ml-auto">
           
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link text-uppercase text-monospace">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link text-uppercase text-monospace">Contact</a></li>
          
           
         </ul>
@@ -45,33 +45,33 @@
     <div class="container">
       <h1 class="modal-header text-monospace">Know Your Akan Name Today</h1>
       <h3 class="card-header text-monospace">Enter your birthday details below</h3>
-      <form method="post" onsubmit="return false"class="form">
-          <label for="month">Month</label>
+      <form method="post" onsubmit="return false"class="form text-monospace">
+          <label for="month" class="text-monospace">Month</label>
           <input type="number" name="month" id="month" maxlength="2"placeholder="month in figures"class="form-control"required/>
-          <label for="date">Date</label>
+          <label for="date" class="text-monospace">Date</label>
           <input type="number" name="date" id="day" maxlength="2"placeholder="day in figure" class="form-control"required/>
-          <label for="year">Year</label>
+          <label for="year" class="text-monospace">Year</label>
           <input type="number" name="year" id="year" maxlength="4"placeholder="year in figure" class="form-control"required/> <br>
           <h3 class="modal-header text-monospace text-light font-weight-bold text-capitalize">Select your gender.</h3>
          <br> 
            
-            <span class="btn bg-success clearfix btn-lg col-3 ">
+            <span class="btn bg-success clearfix btn-lg col-3 text-monospace">
               <input type="checkbox"  name="gender" id="gender" value="male" checked/><br> Male<br>
             </span>
             
           
-            <span class="btn bg-success clearfix btn-lg col-3">
+            <span class="btn bg-success clearfix btn-lg col-3 text-monospace">
               <input type="checkbox" name="gender" value="female" checked /><br>Female<br>
             </span>
             
                   
   
-            <input type="submit" value="submit" onclick="akanNames()" class="btn btn-lg bg-success col-3 float-right">
+            <input type="submit" value="submit" onclick="akanNames()" class="btn btn-lg bg-success col-3 float-right text-monospace">
           
           <div><div class="clearfix"></div></div>
       </form>
           
-      <p id="results" class="text-light font-weight-bold"> YOUR AKAN NAME IS:</p>
+      <p id="results" class="text-light font-weight-bold text-monospace"> YOUR AKAN NAME IS:</p>
      </div>
   </div>
      

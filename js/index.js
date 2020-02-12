@@ -1,38 +1,38 @@
 function akanNames() {
     var day = document.getElementById("day").value;
-    var DD = parseInt(day); // dd is the day
+    var DD = parseInt(day); // dd -> day
     var month = document.getElementById("month").value;
-    var MM =parseInt (month);// mm is the month
+    var MM =parseInt (month);// mm -> month
     var year = document.getElementById("year").value;
-    var YY =parseInt (year); // yy is the year
-    var CC = parseInt(YY - 1) / 100 + 1; // cc is the century in digits
+    var YY =parseInt (year); // yy -> year
+    var CC = parseInt(YY - 1) / 100 + 1; // cc -> century
     var dayOfTheWeek = parseInt( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;//day of the week
-    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]; // names of male  in array
-    var femaleNames = ["Akosua","Adwoa","Abenaa", "Akua", "Yaa", "Afua", "Ama"];// names of female in array
-         //checking gender
+    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]; 
+    var femaleNames = ["Akosua","Adwoa","Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+         //gender 
         if (document.getElementById("gender").checked) {
                 var gender = 'male';
         }
         else{
             var gender = 'female';
         }
-        // checking if month are correct
+        // month check
         if (MM < 0 || MM > 12 ){
             alert("invalid month ");
         }
-        // checking if day is correct and does not exceed limit.  if its not correct alert user
+        //day validation
         else if (DD < 0 || DD > 31) {
             alert("invalid  Date");
         }
-         // validating february month ...leap year to be checked
+         // feb validation
         else if( MM == 2 && DD > 29){
             alert("This month does not have those number of days");
         }
-           // validating year
+           // year validation
         else if(YY<1000||YY>2020){
             alert("Invalid year");
         }
-            //The Math.ceil() function always rounds a number up to the next largest whole number
+            
             //day 1 monday
         else if(Math.ceil(dayOfTheWeek)==1 && gender ==='male'||gender==='female|'){
             if(gender==='male'){
@@ -66,7 +66,7 @@ function akanNames() {
                 "Your day name is "+femaleNames[3]+", which means you were born on a Wednesday."
            }
          }
-          // day 4 thursday
+          // thursday
         else if(Math.ceil(dayOfTheWeek)==4 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
@@ -77,7 +77,7 @@ function akanNames() {
                 "Your day name is "+femaleNames[4]+", which means you were born on a Thursday."
            }
          }
-          // day 5 friday
+          // friday
         else if(Math.ceil(dayOfTheWeek)==5 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
@@ -88,7 +88,7 @@ function akanNames() {
                 "Your day name is "+femaleNames[5]+", which means you were born on a Friday."
            }
          }
-          // day 6 saturday
+          // saturday
         else if(Math.ceil(dayOfTheWeek)==6 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
@@ -99,7 +99,7 @@ function akanNames() {
                 "Your day name is "+femaleNames[6]+", which means you were born on a Saturday."
            }
          }
-          // day 7  sunday
+          // sunday
         else if(Math.ceil(dayOfTheWeek)==0 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
