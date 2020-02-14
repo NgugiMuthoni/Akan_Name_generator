@@ -32,7 +32,7 @@
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
 # Project live link:
-
+>[[Akan names](https://ngugimuthoni.github.io/Akan_Name_generator/)]
 # Contact Info:
 
 >EMAIL: ngugimuthoni43@gmail.com
