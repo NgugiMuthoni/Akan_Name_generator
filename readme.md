@@ -38,3 +38,6 @@
 
 >Phone-No: 0796******
 
+# License and Copyright
+>MIT License Copyright (c) 2019 (Kebaso Steve Ongati)
+>[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
