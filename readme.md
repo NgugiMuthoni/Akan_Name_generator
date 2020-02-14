@@ -31,6 +31,7 @@
 ><img src="images/about.png" alt="about page">
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
+# Project live link:
 
 # Contact Info:
 
