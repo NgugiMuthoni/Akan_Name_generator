@@ -32,7 +32,7 @@
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
 # Project live link:
->[[Akan names](https://ngugimuthoni.github.io/Akan_Name_generator/)]
+[Akan Names](https://ngugimuthoni.github.io/Akan_Name_generator/)
 # Contact Info:
 
 >EMAIL: ngugimuthoni43@gmail.com
@@ -40,5 +40,5 @@
 >Phone-No: 0796******
 
 # License and Copyright
->MIT License Copyright (c) 2020 (Muthoni Stephen Ngugi)
+>MIT License Copyright (c) 2019 (Kebaso Steve Ongati)
 >[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
