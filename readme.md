@@ -15,3 +15,9 @@
 >>3. Bootstrap
 >>4. some CSS
 
+# SET UP INSTRUCTIONS
+>The set up instructions for the project are:
+>>1. git clone or download the zip file.
+>>2. Extract the zip file.
+>>3. cd into the project folder.
+>>4. Launch the index.html file.
