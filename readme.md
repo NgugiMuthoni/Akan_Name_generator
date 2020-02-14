@@ -24,10 +24,10 @@
 
 # USER STORIES
 ## Landing Page
-
+><img src="images/landing.png" alt="landing page">
 
 >>user gets to the page and sees the landing page where they fill in their date of birth and select their gender either male or female and then push the submit button and gets their Akan Name at the buttom of the screen
 
-
+><img src="images/about.png" alt="about page">
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
