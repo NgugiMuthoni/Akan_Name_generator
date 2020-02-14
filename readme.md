@@ -1,28 +1,28 @@
-# PROJECT NAME:
+# Project Name:
 >AKAN NAMES
 
-# PROJECT AUTHOR:
+# Project Author:
 >Muthoni Stephen Ngugi
 
-# PROJECT DESCRIPTION
+# Project Description:
 
 >A website for generating Akan names based on your date of birth
 
-# TECHNOLIGIES USED
+# Technoligies used:
 >The technoligies used were:
 >>1. javascript
 >>2. HTML
 >>3. Bootstrap
 >>4. some CSS
 
-# SET UP INSTRUCTIONS
+# Set Up Instructions
 >The set up instructions for the project are:
 >>1. git clone or download the zip file.
 >>2. Extract the zip file.
 >>3. cd into the project folder.
 >>4. Launch the index.html file.
 
-# USER STORIES
+# User Stories:
 ## Landing Page
 ><img src="images/landing.png" alt="landing page">
 
@@ -32,7 +32,7 @@
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
 
-# CONTACT INFORMATION
+# Contact Info:
 
 >EMAIL: ngugimuthoni43@gmail.com
 
