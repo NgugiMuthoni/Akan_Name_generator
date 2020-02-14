@@ -31,3 +31,10 @@
 ><img src="images/about.png" alt="about page">
 
 >>user checks navigates into the about page where they get a short explanation on what akan names are
+
+# CONTACT INFORMATION
+
+>EMAIL: ngugimuthoni43@gmail.com
+
+>Phone-No: 0796******
+
