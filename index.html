@@ -7,26 +7,24 @@
   <title>Akan Name</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
-  <script src="js/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+  <script src="js/index.js" type="text/javascript"></script>
 </head>
 
-<body class="overflow-auto">
+<body>
 
   <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-success">
-      <a href="index.html" class="navbar-brand text-monospace text-uppercase">Akan Names</a>
+      <a href="index.html" class="navbar-brand text-uppercase text-monospace">Akan Names</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse  navbar-collapse" id="nav">
         <ul class="navbar-nav ml-auto">
-
+         
           <li class="nav-item"><a href="about.html" class="nav-link text-uppercase text-monospace">About</a></li>
-
 
 
         </ul>
@@ -35,47 +33,61 @@
     </nav>
   </header>
   <br>
-  <br>
-  <div class="h-75">
-    <div class="container">
-      <h1 class="modal-header text-monospace">Know Your Akan Name Today</h1>
-      <h3 class="card-header text-monospace">Enter your birthday details below</h3>
-      <form method="post" onsubmit="return false" class="form text-monospace">
-        <label for="month" class="text-monospace">Month</label>
-        <input type="number" name="month" id="month" min="1" max="12" maxlength="2" placeholder="month in figures" class="form-control" required />
-        <label for="date" class="text-monospace">Date</label>
-        <input type="number" name="date" id="day" min="1" max="31" maxlength="2" placeholder="day in figure" class="form-control" required />
-        <label for="year" class="text-monospace">Year</label>
-        <input type="number" name="year" id="year" min="1000" maxlength="4" placeholder="year in figure" class="form-control" required /> <br>
-        <h3 class="modal-header text-monospace text-light font-weight-bold text-capitalize">Select your gender.</h3>
-        <br>
 
-        <span class="btn bg-success clearfix btn-lg col-3 text-monospace">
-          <input type="radio" name="gender" id="gender" value="male" /><br> Male<br>
-        </span>
+  <div class="container">
+    <div class="container card text-white bg-success">
+      <div class="card-body">
+        <div class="card-header bg-transparent bg-primary ">
 
-
-        <span class="btn bg-success clearfix btn-lg col-3 text-monospace">
-          <input type="radio" name="gender" value="female" id="gender" /><br>Female<br>
-        </span>
-
-
-
-        <input type="submit" value="submit" onclick="akanNames()" class="btn btn-lg bg-success col-3 float-right text-monospace">
-
-        <div>
-          <div class="clearfix"></div>
+          <h2 class="text-center text-light text-monospace text-capitalize">What are Akan Names</h2>
         </div>
-      </form>
+        <p class=" card-text">
+          <p class="text-monospace">
+            The Akan people of Ghana frequently name their children after the day of the week they were born and the order
+            in
+            which they were born. These "day names" have further meanings concerning the soul and character of the person.
+            Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's
+            middle
+            name.
+          </p>
 
-      <p id="results" class="text-light font-weight-bold text-monospace"> YOUR AKAN NAME IS:</p>
+          <p class="text-monospace">
+            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th
+            centuries,
+            slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the
+            leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or
+            Kwame/Kwamina.
+
+            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
+            Notable
+            figures with day names include Ghana's first president Kwame Nkrumah and former United Nations
+            Secretary-General
+            Kofi Annan.
+          </p>
+
+          <p class="text-monospace">
+            In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi are
+            as
+            follows. The diacritics on á a̍ à represent high, mid, and low tone (tone does not need to be marked on every
+            vowel), while the diacritic on a̩ is used for vowel harmony and can be ignored. (Diacritics are frequently
+            dropped
+            in any case.) Variants of the names are used in other languages, or may represent different transliteration
+            schemes.
+            The variants mostly consist of different affixes (in Ashanti, kwa- or ko- for men and a- plus -a or -wa for
+            women).
+            For example, among the Fante, the prefixes are kwe- and e-, respectively. Akan d̩wo is pronounced something
+            like
+            English Joe, but there do appear to be two sets of names for those born on Tuesday.
+          </p>
+
+        </p>
+
+        <img src="images/celeb.jpg" alt="people around a house" class="ml-auto img-fluid col-xs-12 col-sm-6">
+        <img src="images/tat.jpg" alt="man with painted face" class="ml-auto img-fluid col-xs-12 col-sm-6 float-right">
+
+      </div>
     </div>
-  </div>
-
-  <br>
-  <br>
-  <br>
-  </div>
+    <br>
 
 </body>
 
